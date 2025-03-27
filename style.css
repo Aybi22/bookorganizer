@@ -1,0 +1,186 @@
+form >p{
+        display:flex;
+        justify-content:space-between;
+        margin-bottom:5px;
+       
+        
+}
+.info{
+       display:block;
+}
+.info{
+     color:red;
+     font-family:verdana;
+     font-style:italic;
+     text-transform:capitalize;
+     background:seagreen;
+     color:white;
+     width:300px;
+     padding:3px 7px;
+     margin-left:-500px;
+     transition:0.4s;
+     margin-top:11px;
+ 
+  
+}
+
+
+
+img{
+     border-radius:100%;
+}
+form >div{
+   display:flex;
+   justify-content:space-between;
+   margin-bottom:3px;
+}
+
+
+input{
+       width:200px;
+}
+form{
+     width:310px 
+      
+}
+label{
+  
+}
+.message{
+  background:black;
+  color:white;
+  width:200px;
+  padding:12px 14px;
+  text-align:center;
+  font-weight:900;
+  text-transform:capitalize;
+  position:absolute;
+  bottom:-300px;
+  left:0px;
+  transition:0.5s;
+  
+ 
+}
+.txt{
+      color:blue;
+      text-transform:capitalize;
+      
+    
+}
+.tip{
+      text-transform:capitalize;
+}
+input{
+      
+}
+h1{
+     font-family:dancing script;
+     color:lightgreen;
+     font-weight:900;
+     font-size:88px;
+    
+}
+button,.btn{
+    border-radius:7px;
+}
+
+.top{
+       font-size:25px;
+       color:lightgreen;
+       font-style:italic;
+       font-family:pacifico;
+       margin-bottom:34px;
+      
+  
+}
+.btn{
+    margin-top:45px;
+    border:none;
+    width:300px;
+    background:violet;
+    padding:12px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    margin-right:22px;
+    box-shadow:inset 0 0 0 0 orange;
+    
+}
+
+.btn:hover{
+      box-shadow: inset 300px 0 0 0 orange;
+     
+}
+
+
+
+
+
+.txt{
+    font-style:italic;
+}
+#title{
+         font-style:italic;
+}
+
+
+body{
+  
+  background:beige;
+  position:relative;
+  
+  
+}
+#author{
+      text-transform:capitalize;
+}
+
+.close{
+     font-size:13px;
+     font-weight:bold;
+     cursor:pointer;
+     color:white;
+     background:blue;
+     text-transform:capitalize;
+     padding:3px  7px;
+}
+.para{
+     display:flex;
+     
+     width:50%;
+     cursor:pointer;
+     text-transform:capitalize;
+     align-items:center;
+     justify-content:space-around;
+     
+ 
+}
+
+
+.bttn{
+    margin-top:45px;
+    border:none;
+    background:black;
+    padding:7px 10px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    cursor:pointer;
+}
+
+body{
+     position:relative;
+}
+
+.image{
+      position:absolute;
+      top:20px;
+      right:23px;
+}
+
+
+
+.text{
+     
+      
+}
