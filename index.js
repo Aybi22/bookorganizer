@@ -1,18 +1,16 @@
 const author=document.getElementById('author');
 const title=document.getElementById('title');
-const date=document.getElementById('date');
+const day=document.getElementById('day');
 const btn=document.querySelector('.btn');
 const message=document.querySelector('.message');
-const today=new date();
-let hour=today.gethour();
-let minute=today.getminute();
+
 
 btn.addEventListener('click', showText);
 function showText(){
   const text=document.querySelector('.text');
   const author=document.getElementById('author');
   const title=document.getElementById('title');
-  const date=document.getElementById('date');
+  const day=document.getElementById('day');
   const h2=document.querySelector('.txt');
  
   const info=document.querySelector('.info');
@@ -24,9 +22,9 @@ function showText(){
     text.appendChild(p);
     p.className="para";
     p.innerHTML=`<h2 class="txt">meeting scheduled
-    <i class="fa-solid fa-arrow-right"> </i> </h2>` +
-    date.value+ ":" +" "+ author.value+"," +" " +title.value
-    +`<span class="close">delete</span>` +`<i class="fa-solid fa-calendar-check"></i>` + `${hour}:${minute}`;
+    <i class="fa-solid fa-arrow-right"> </i> </h2> 
+   Meeting Date: ${day.value},  Author: ${author.value},  Book title: ${title.value} 
+    <span class="close">delete</span> <i class="fa-solid fa-calendar-check"></i>`;
   
   
   }else{
@@ -74,3 +72,11 @@ function remove(){
       
       }
 }
+
+
+fetch('https://openlibrary.org/search.json?q=the+lord+of+the+rings')
+.then(response=>response.json())
+ .then(data=>
+    console.log(data)
+    
+    );
