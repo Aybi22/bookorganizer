@@ -1,6 +1,6 @@
 const author=document.getElementById('author');
 const title=document.getElementById('title');
-const day=document.getElementById('day');
+const day=document.getElementById('date');
 const btn=document.querySelector('.btn');
 const message=document.querySelector('.message');
 
@@ -10,7 +10,7 @@ function showText(){
   const text=document.querySelector('.text');
   const author=document.getElementById('author');
   const title=document.getElementById('title');
-  const day=document.getElementById('day');
+  const day=document.getElementById('date');
   const h2=document.querySelector('.txt');
  
   const info=document.querySelector('.info');
